@@ -4,7 +4,9 @@ import { HeaderStyled } from "./styles";
 function Header() {
   return (
     <HeaderStyled>
-      <h1>RANGERDEV</h1>
+      <h1>
+        RANGER<span>DEV</span>
+      </h1>
       <Nav />
     </HeaderStyled>
   );
