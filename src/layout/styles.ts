@@ -30,7 +30,7 @@ export const HeroImageStyled = styled('img')({
   width: '500px',
 });
 
-export const HeroWrappertyled = styled('div')({
+export const HeroWrapperStyled = styled('div')({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',

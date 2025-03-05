@@ -1,9 +1,9 @@
-import { HeroDescriptionStyled, HeroImageStyled, HeroWrappertyled } from "./styles";
+import { HeroDescriptionStyled, HeroImageStyled, HeroWrapperStyled } from "./styles";
 import man  from "../assets/artist-white.jpg"
 
 function Hero() {
   return (
-    <HeroWrappertyled>
+    <HeroWrapperStyled>
       <HeroDescriptionStyled>
       <h1>Hello My Name is Tommy</h1>
       <h2>Frontend React Developer</h2>
@@ -16,7 +16,7 @@ function Hero() {
       </p>
      </HeroDescriptionStyled>
      <HeroImageStyled src={man} alt="smiling man" />
-    </HeroWrappertyled>
+    </HeroWrapperStyled>
   );
 }
 
