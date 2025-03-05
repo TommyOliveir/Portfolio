@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import { Footertyled } from './styles';
+import { FooterStyled } from './styles';
 
 function Footer() {
   return (
-    <Footertyled>
+    <FooterStyled>
       <ul>
         <li>
           <Link to="">Footer</Link>
@@ -16,7 +16,7 @@ function Footer() {
         </li>
       </ul>
       <p>@rangerdev 2025</p>
-    </Footertyled>
+    </FooterStyled>
   );
 }
 

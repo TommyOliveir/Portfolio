@@ -37,10 +37,11 @@ export const HeroWrapperStyled = styled('div')({
   padding: '0 20%',
 });
 
-export const Footertyled = styled('div')({
+export const FooterStyled = styled('div')({
   color: '#ffffff',
   display: 'flex',
   justifyContent: 'center',
+  height: "10em",
   padding: '0 20%',
   background: 'purple',
   gap: '1em',
