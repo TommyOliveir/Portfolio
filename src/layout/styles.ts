@@ -1,5 +1,4 @@
 import { styled } from '@mui/system';
-import { useLinkClickHandler } from 'react-router-dom';
 
 export const HeaderStyled = styled('div')({
   color: 'purple',
