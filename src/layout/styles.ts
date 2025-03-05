@@ -23,16 +23,33 @@ export const NavStyled = styled('ul')({
 });
 
 export const HeroDescriptionStyled = styled('div')({
-  border: '1px red solid',
   width: '500px',
 });
 
 export const HeroImageStyled = styled('img')({
-  border: '1px red solid',
   width: '500px',
 });
 
 export const HeroWrappertyled = styled('div')({
-  border: '1px green solid',
   display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  padding: '0 20%',
+});
+
+export const Footertyled = styled('div')({
+  color: '#ffffff',
+  display: 'flex',
+  justifyContent: 'center',
+  padding: '0 20%',
+  background: 'purple',
+  gap: '1em',
+  ul: {
+    display: 'flex',
+    gap: '1em',
+    listStyle: 'none',
+  },
+  a: {
+    color: '#ffffff',
+  },
 });

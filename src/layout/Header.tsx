@@ -1,12 +1,10 @@
-import Nav from "./Nav";
-import { HeaderStyled } from "./styles";
+import Nav from './Nav';
+import { HeaderStyled } from './styles';
 
 function Header() {
   return (
     <HeaderStyled>
-      <h1>
-        RANGER<span>DEV</span>
-      </h1>
+      <h1>RANGERDEV</h1>
       <Nav />
     </HeaderStyled>
   );
