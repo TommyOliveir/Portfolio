@@ -1,8 +1,10 @@
-import { HeroDescriptionStyled } from "./styles";
+import { HeroDescriptionStyled, HeroImageStyled, HeroWrappertyled } from "./styles";
+import man  from "../assets/artist-white.jpg"
 
 function Hero() {
   return (
-    <HeroDescriptionStyled>
+    <HeroWrappertyled>
+      <HeroDescriptionStyled>
       <h1>Hello My Name is Tommy</h1>
       <h2>Frontend React Developer</h2>
       <p>
@@ -12,7 +14,9 @@ function Hero() {
         high-performance web applications. Dedicated to creating clean,
         efficient code and bringing ideas to life with elegant UI/UX solutions.
       </p>
-    </HeroDescriptionStyled>
+     </HeroDescriptionStyled>
+     <HeroImageStyled src={man} alt="smiling man" />
+    </HeroWrappertyled>
   );
 }
 
