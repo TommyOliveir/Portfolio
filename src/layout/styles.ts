@@ -1,11 +1,23 @@
 import { styled } from '@mui/system';
 
+export const LayoutWrapperStyled = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  minHeight: '100vh',
+});
+
+export const MainStyled = styled('main')({
+  flexGrow: 1,
+});
+
 export const HeaderStyled = styled('div')({
   color: 'purple',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '0 20%',
+  padding: '1em 20em',
+  position: 'sticky',
+  top: 0,
 });
 
 export const NavStyled = styled('ul')({
@@ -24,6 +36,7 @@ export const NavStyled = styled('ul')({
 
 export const HeroDescriptionStyled = styled('div')({
   width: '500px',
+  lineHeight: 1.5,
 });
 
 export const HeroImageStyled = styled('img')({
@@ -34,20 +47,18 @@ export const HeroWrapperStyled = styled('div')({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '0 20%',
+  padding: '0 20em',
 });
 
 export const FooterStyled = styled('div')({
   color: '#ffffff',
   display: 'flex',
   justifyContent: 'center',
-  height: "10em",
-  padding: '0 20%',
+  padding: '1em 20em',
   background: 'purple',
-  gap: '1em',
   ul: {
     display: 'flex',
-    gap: '1em',
+    gap: '2em',
     listStyle: 'none',
   },
   a: {

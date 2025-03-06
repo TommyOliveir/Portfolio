@@ -14,8 +14,10 @@ function Footer() {
         <li>
           <Link to="">Footer</Link>
         </li>
+        <li>
+          <p>@rangerdev 2025</p>
+        </li>
       </ul>
-      <p>@rangerdev 2025</p>
     </FooterStyled>
   );
 }
