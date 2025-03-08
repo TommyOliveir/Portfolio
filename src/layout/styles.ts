@@ -40,7 +40,7 @@ export const HeroDescriptionStyled = styled('div')({
 });
 
 export const HeroImageStyled = styled('img')({
-  width: '500px',
+  width: '350px',
 });
 
 export const HeroWrapperStyled = styled('div')({
