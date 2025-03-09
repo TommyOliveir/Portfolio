@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
 import { LayoutWrapperStyled, MainStyled } from './styles';
+import { Header } from './Header';
+import { Footer } from './Footer';
 
-const Layout = () => {
+export const Layout = () => {
   return (
     <LayoutWrapperStyled>
       <Header />
@@ -14,5 +14,3 @@ const Layout = () => {
     </LayoutWrapperStyled>
   );
 };
-
-export default Layout;

@@ -1,7 +1,7 @@
 import { HeroDescriptionStyled, HeroImageStyled, HeroWrapperStyled } from './styles';
 import man from '../assets/tommy.png';
 
-function Hero() {
+export const Hero = () => {
   return (
     <HeroWrapperStyled>
       <HeroDescriptionStyled>
@@ -15,6 +15,4 @@ function Hero() {
       <HeroImageStyled src={man} alt="smiling man" />
     </HeroWrapperStyled>
   );
-}
-
-export default Hero;
+};

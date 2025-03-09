@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "name": "Html",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "CSS",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "React",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Typescript",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "TanStack Query",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Redux",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Jest Unit Testing",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Cypress",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Jenkins",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "Material UI",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    },
+    {
+      "name": "React Magma",
+      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FooterStyled } from './styles';
 
-function Footer() {
+export const Footer = () => {
   return (
     <FooterStyled>
       <ul>
@@ -20,6 +20,4 @@ function Footer() {
       </ul>
     </FooterStyled>
   );
-}
-
-export default Footer;
+};

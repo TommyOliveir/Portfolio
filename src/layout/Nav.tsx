@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { NavStyled } from "./styles";
+import { Link } from 'react-router-dom';
+import { NavStyled } from './styles';
 
-function Nav() {
+export const Nav = () => {
   return (
     <nav>
       <NavStyled>
@@ -12,7 +12,7 @@ function Nav() {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link to="/service">Service</Link>
@@ -23,6 +23,4 @@ function Nav() {
       </NavStyled>
     </nav>
   );
-}
-
-export default Nav;
+};

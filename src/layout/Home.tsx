@@ -1,13 +1,11 @@
-import TechStacks from '../components/TechStacks';
-import Hero from './Hero';
+import { Skills } from '../components/skills/Skills';
+import { Hero } from './Hero';
 
-function Home() {
+export const Home = () => {
   return (
     <>
       <Hero />
-      <TechStacks />
+      <Skills />
     </>
   );
-}
-
-export default Home;
+};
