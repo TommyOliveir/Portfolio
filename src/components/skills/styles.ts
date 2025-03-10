@@ -2,7 +2,7 @@ import { styled } from '@mui/system';
 
 export const SkillsStyled = styled('div')({
   background: '#f5e9ff',
-  padding: '4em',
+  padding: '8em',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -11,6 +11,8 @@ export const SkillsStyled = styled('div')({
 
 export const SkillWrapperStyled = styled('div')({
   display: 'flex',
+  alignItems: 'center',
+  gap: '.5em',
 });
 
 export const SkillsListStyled = styled('div')({

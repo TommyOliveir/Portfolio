@@ -2,51 +2,51 @@
   "skills": [
     {
       "name": "Html",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=Yfprg8CASXbD&format=png&color=000000"
     },
     {
       "name": "CSS",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000"
     },
     {
       "name": "JavaScript",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
     },
     {
       "name": "React",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
     },
     {
       "name": "Typescript",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=wpZmKzk11AzJ&format=png&color=000000"
     },
     {
       "name": "TanStack Query",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*elhu-42TzQEdsFjKDbQhhA.png"
     },
     {
       "name": "Redux",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000"
     },
     {
       "name": "Jest Unit Testing",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://static-00.iconduck.com/assets.00/jest-icon-1855x2048-ifiupldr.png"
     },
     {
       "name": "Cypress",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://static-00.iconduck.com/assets.00/cypress-icon-2048x2045-rgul477b.png"
     },
     {
       "name": "Jenkins",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000"
     },
     {
       "name": "Material UI",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=gFw7X5Tbl3ss&format=png&color=000000"
     },
     {
       "name": "React Magma",
-      "image": "https://cdn1.iconfinder.com/data/icons/people-avatars-23/24/people_avatar_head_spiderman_marvel_spider_man-512.png"
+      "image": "https://img.icons8.com/?size=100&id=AbcGNK4lUd36&format=png&color=000000"
     }
   ]
 }
