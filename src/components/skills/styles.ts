@@ -1,8 +1,7 @@
 import { styled } from '@mui/system';
 
-export const SkillsStyled = styled('div')({
-  background: '#f5e9ff',
-  padding: '8em',
+export const SkillsSectionStyled = styled('div')({
+  padding: '4em',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -17,11 +16,10 @@ export const SkillWrapperStyled = styled('div')({
 
 export const SkillsListStyled = styled('div')({
   display: 'grid',
-  gridTemplateColumns: 'repeat(2, 1fr)',
-  gap: '2em 4em',
-  maxWidth: '400px',
+  gridTemplateColumns: 'repeat(3, 1fr)',
+  gap: '2em 8em',
 });
 
 export const IconStyled = styled('img')({
-  width: '30px',
+  width: '100px',
 });
