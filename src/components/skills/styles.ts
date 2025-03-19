@@ -1,11 +1,11 @@
 import { styled } from '@mui/system';
 
 export const SkillsSectionStyled = styled('div')({
-  padding: '4em',
+  padding: '6em',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  gap: '2em',
+  gap: '4em',
 });
 
 export const SkillWrapperStyled = styled('div')({
@@ -21,5 +21,5 @@ export const SkillsListStyled = styled('div')({
 });
 
 export const IconStyled = styled('img')({
-  width: '100px',
+  width: '60px',
 });

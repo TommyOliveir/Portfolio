@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material';
 import { Skills } from '../skills/Skills';
 import { AboutDescriptionTextStyled, AboutDescriptionStyled } from './styles';
+import { TypeAnimation } from 'react-type-animation';
 
 export const About = () => {
   return (
@@ -10,8 +11,10 @@ export const About = () => {
           <img src="https://belaltheme.com/tm/Masud/Masud/images/about.jpg" alt="" />
         </div>
         <AboutDescriptionTextStyled>
-          <h2>About me</h2>
-          <Typography marginTop={1}>
+          <Typography variant="h4" component="h1">
+            <TypeAnimation sequence={['  About me']} wrapper="span" speed={50} />
+          </Typography>
+          <Typography marginTop={2}>
             I am a graduate of a Bachelor of Science in Information Technology and originally from the Philippines.
             Early in my career, I worked in various IT-related roles, such as IT Support and Business Analyst. However,
             I later shifted my focus to frontend development, continuously updating my knowledge with the latest
