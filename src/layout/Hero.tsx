@@ -1,7 +1,7 @@
-import { HeroDescriptionStyled, HeroImageStyled, HeroWrapperStyled } from './styles';
-import man from '../assets/tommy.png';
-import { Box, Button, Typography } from '@mui/material';
-import { TypeAnimation } from 'react-type-animation';
+import { HeroDescriptionStyled, HeroImageStyled, HeroWrapperStyled } from './styles'
+import man from '../assets/tommy.png'
+import { Box, Button, Typography } from '@mui/material'
+import { TypeAnimation } from 'react-type-animation'
 
 export const Hero = () => {
   return (
@@ -30,5 +30,5 @@ export const Hero = () => {
       </HeroDescriptionStyled>
       <HeroImageStyled src={man} alt="smiling man" />
     </HeroWrapperStyled>
-  );
-};
+  )
+}

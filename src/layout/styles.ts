@@ -1,27 +1,27 @@
-import { styled } from '@mui/system';
+import { styled } from '@mui/system'
 
 export const LayoutWrapperStyled = styled('div')({
   display: 'flex',
   flexDirection: 'column',
   minHeight: '100vh',
-});
+})
 
 export const MainStyled = styled('main')({
   flexGrow: 1,
-});
+})
 
 export const HeaderStyled = styled('header')(({ theme }) => ({
   color: 'purple',
   alignItems: 'center',
-  justifyContent: 'space-between',
   position: 'sticky',
+  display: 'flex',
   top: 0,
   padding: '1em',
-  [theme.breakpoints.up('md')]: {
-    display: 'flex',
+  [theme.breakpoints.up('lg')]: {
     padding: '1em 20em',
+    justifyContent: 'space-between',
   },
-}));
+}))
 
 export const NavStyled = styled('ul')({
   listStyle: 'none',
@@ -36,31 +36,28 @@ export const NavStyled = styled('ul')({
       textDecoration: 'underline',
     },
   },
-});
+})
 
 export const HeroDescriptionStyled = styled('div')({
   width: '500px',
   lineHeight: 1.5,
-});
+})
 
 export const HeroImageStyled = styled('img')({
   width: '350px',
-});
+})
 
 export const HeroWrapperStyled = styled('div')(({ theme }) => ({
   alignItems: 'center',
   padding: '1em',
-  flexWrap: 'wrap',
   display: 'flex',
-  flexDirection: 'column',
+  flexWrap: 'wrap',
 
-  [theme.breakpoints.up('md')]: {
-    display: 'flex',
-    flexDirection: 'row',
+  [theme.breakpoints.up('lg')]: {
     padding: '0 20em',
     justifyContent: 'space-between',
   },
-}));
+}))
 
 export const FooterStyled = styled('footer')(({ theme }) => ({
   color: '#ffffff',
@@ -77,8 +74,8 @@ export const FooterStyled = styled('footer')(({ theme }) => ({
     color: '#ffffff',
   },
 
-  [theme.breakpoints.up('sm')]: {
+  [theme.breakpoints.up('md')]: {
     display: 'flex',
     padding: '1em 20em',
   },
-}));
+}))

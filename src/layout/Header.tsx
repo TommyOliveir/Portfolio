@@ -1,15 +1,15 @@
-import { Nav } from './Nav';
-import { HeaderStyled } from './styles';
-import MenuIcon from '@mui/icons-material/Menu';
+import { Nav } from './Nav'
+import { HeaderStyled } from './styles'
+import MenuIcon from '@mui/icons-material/Menu'
 
-import { useState } from 'react';
-import { IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery } from '@mui/material';
-import { useTheme } from '@mui/material/styles';
+import { useState } from 'react'
+import { IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery } from '@mui/material'
+import { useTheme } from '@mui/material/styles'
 
 export const Header = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // Checks if screen size is small
-  const [open, setOpen] = useState(false);
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+  const [open, setOpen] = useState(false)
 
   return (
     <HeaderStyled>
@@ -41,5 +41,5 @@ export const Header = () => {
         </>
       )}
     </HeaderStyled>
-  );
-};
+  )
+}

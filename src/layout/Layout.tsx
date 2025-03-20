@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import { LayoutWrapperStyled, MainStyled } from './styles';
-import { Header } from './Header';
-import { Footer } from './Footer';
+import { Outlet } from 'react-router-dom'
+import { LayoutWrapperStyled, MainStyled } from './styles'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
 export const Layout = () => {
   return (
@@ -12,5 +12,5 @@ export const Layout = () => {
       </MainStyled>
       <Footer />
     </LayoutWrapperStyled>
-  );
-};
+  )
+}
