@@ -10,21 +10,25 @@ export const MainStyled = styled('main')({
   flexGrow: 1,
 });
 
-export const HeaderStyled = styled('div')({
+export const HeaderStyled = styled('header')(({ theme }) => ({
   color: 'purple',
-  display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  padding: '1em 20em',
   position: 'sticky',
   top: 0,
-});
+  padding: '1em',
+  [theme.breakpoints.up('md')]: {
+    display: 'flex',
+    padding: '1em 20em',
+  },
+}));
 
 export const NavStyled = styled('ul')({
   listStyle: 'none',
   display: 'flex',
   flexDirection: 'row',
-  gap: '2em',
+  gap: '1em',
+  fontSize: '1em',
   textDecoration: 'none',
   a: {
     textDecoration: 'none',
@@ -43,19 +47,27 @@ export const HeroImageStyled = styled('img')({
   width: '350px',
 });
 
-export const HeroWrapperStyled = styled('div')({
-  display: 'flex',
-  justifyContent: 'space-between',
+export const HeroWrapperStyled = styled('div')(({ theme }) => ({
   alignItems: 'center',
-  padding: '0 20em',
-});
+  padding: '1em',
+  flexWrap: 'wrap',
+  display: 'flex',
+  flexDirection: 'column',
 
-export const FooterStyled = styled('div')({
+  [theme.breakpoints.up('md')]: {
+    display: 'flex',
+    flexDirection: 'row',
+    padding: '0 20em',
+    justifyContent: 'space-between',
+  },
+}));
+
+export const FooterStyled = styled('footer')(({ theme }) => ({
   color: '#ffffff',
   display: 'flex',
   justifyContent: 'center',
-  padding: '1em 20em',
   background: 'purple',
+  padding: '1em',
   ul: {
     display: 'flex',
     gap: '2em',
@@ -64,4 +76,9 @@ export const FooterStyled = styled('div')({
   a: {
     color: '#ffffff',
   },
-});
+
+  [theme.breakpoints.up('sm')]: {
+    display: 'flex',
+    padding: '1em 20em',
+  },
+}));
