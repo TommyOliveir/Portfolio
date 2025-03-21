@@ -48,14 +48,14 @@ export const HeroImageStyled = styled('img')({
 })
 
 export const HeroWrapperStyled = styled('div')(({ theme }) => ({
-  alignItems: 'center',
   padding: '1em',
   display: 'flex',
   flexWrap: 'wrap',
-
   [theme.breakpoints.up('lg')]: {
     padding: '0 20em',
     justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
 }))
 
