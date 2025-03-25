@@ -7,10 +7,10 @@ export const Hero = () => {
   return (
     <HeroWrapperStyled>
       <HeroDescriptionStyled>
-        <Typography variant="h4" component="h1" sx={{ fontWeight: 500 }}>
+        <Typography variant="h3" component="h1" color={'primary'} sx={{ fontWeight: 900 }}>
           TOMMY OLIVEIR
         </Typography>
-        <Typography variant="h5" component="h1" sx={{ fontWeight: 500 }}>
+        <Typography variant="h4" component="h1" sx={{ fontWeight: 500 }}>
           <TypeAnimation sequence={['I am a Frontend Developer']} wrapper="span" speed={50} />
         </Typography>
 
