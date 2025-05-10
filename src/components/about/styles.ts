@@ -1,4 +1,4 @@
-import { styled } from '@mui/system';
+import { styled } from '@mui/system'
 
 export const AboutDescriptionStyled = styled('div')({
   padding: '4em',
@@ -6,8 +6,12 @@ export const AboutDescriptionStyled = styled('div')({
   justifyContent: 'center',
   alignItems: 'center',
   gap: '5em',
-});
+  flexWrap: 'wrap',
+})
 
-export const AboutDescriptionTextStyled = styled('div')({
+export const AboutDescriptionTextStyled = styled('div')(({ theme }) => ({
   maxWidth: '30%',
-});
+  [theme.breakpoints.down('md')]: {
+    maxWidth: '100%',
+  },
+}))

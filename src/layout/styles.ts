@@ -17,6 +17,9 @@ export const HeaderStyled = styled('header')(({ theme }) => ({
   display: 'flex',
   top: 0,
   padding: '1em',
+  [theme.breakpoints.up('sm')]: {
+    justifyContent: 'space-evenly',
+  },
   [theme.breakpoints.up('lg')]: {
     padding: '1em 20em',
     justifyContent: 'space-between',
@@ -51,6 +54,9 @@ export const HeroWrapperStyled = styled('div')(({ theme }) => ({
   padding: '1em',
   display: 'flex',
   flexWrap: 'wrap',
+  [theme.breakpoints.up('sm')]: {
+    justifyContent: 'space-evenly',
+  },
   [theme.breakpoints.up('lg')]: {
     padding: '0 20em',
     justifyContent: 'space-between',
