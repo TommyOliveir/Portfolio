@@ -1,14 +1,24 @@
-import { Typography } from '@mui/material';
-import { Skills } from '../skills/Skills';
-import { AboutDescriptionTextStyled, AboutDescriptionStyled } from './styles';
-import { TypeAnimation } from 'react-type-animation';
+import { Typography } from '@mui/material'
+import { Skills } from '../skills/Skills'
+import { AboutDescriptionTextStyled, AboutDescriptionStyled } from './styles'
+import { TypeAnimation } from 'react-type-animation'
 
 export const About = () => {
   return (
     <>
       <AboutDescriptionStyled>
         <div>
-          <img src="https://belaltheme.com/tm/Masud/Masud/images/about.jpg" alt="" />
+          {/* <img src="https://belaltheme.com/tm/Masud/Masud/images/about.jpg" alt="" /> */}
+          <iframe
+            width="435"
+            height="226"
+            src="https://www.youtube.com/embed/1w7OgIMMRc4"
+            title="Guns N&#39; Roses - Sweet Child O&#39; Mine (Official Music Video)"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
         <AboutDescriptionTextStyled>
           <Typography variant="h4" component="h1">
@@ -33,5 +43,5 @@ export const About = () => {
       </AboutDescriptionStyled>
       <Skills />
     </>
-  );
-};
+  )
+}

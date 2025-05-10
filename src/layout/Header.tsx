@@ -29,6 +29,9 @@ export const Header = () => {
               <ListItem button onClick={() => setOpen(false)}>
                 <ListItemText primary="Contact" />
               </ListItem>
+              <ListItem button onClick={() => setOpen(false)}>
+                <ListItemText primary="Contact" />
+              </ListItem>
             </List>
           </Drawer>
         </>

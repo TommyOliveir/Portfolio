@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { NavStyled } from './styles';
+import { Link } from 'react-router-dom'
+import { NavStyled } from './styles'
 
 export const Nav = () => {
   return (
@@ -15,6 +15,9 @@ export const Nav = () => {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
+          <Link to="/skills">Skills</Link>
+        </li>
+        <li>
           <Link to="/service">Service</Link>
         </li>
         <li>
@@ -22,5 +25,5 @@ export const Nav = () => {
         </li>
       </NavStyled>
     </nav>
-  );
-};
+  )
+}
