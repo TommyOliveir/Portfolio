@@ -2,10 +2,24 @@ import { Typography } from '@mui/material'
 import { Skills } from '../skills/Skills'
 import { AboutDescriptionTextStyled, AboutDescriptionStyled } from './styles'
 import { TypeAnimation } from 'react-type-animation'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 export const About = () => {
+  const { hash } = useLocation()
+  useEffect(() => {
+    if (!hash || hash === '#about') {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else {
+      const el = document.querySelector(hash)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }, [hash])
+
   return (
-    <>
+    <div id="about">
       <AboutDescriptionStyled>
         <div>
           {/* <img src="https://belaltheme.com/tm/Masud/Masud/images/about.jpg" alt="" /> */}
@@ -42,6 +56,6 @@ export const About = () => {
         </AboutDescriptionTextStyled>
       </AboutDescriptionStyled>
       <Skills />
-    </>
+    </div>
   )
 }
