@@ -19,6 +19,7 @@ export const AboutDescriptionStyled = styled('div')({
 
 export const AboutDescriptionTextStyled = styled('div')(({ theme }) => ({
   maxWidth: '30%',
+  color: theme.palette.primary.light,
   [theme.breakpoints.down('md')]: {
     maxWidth: '100%',
   },

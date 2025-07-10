@@ -11,7 +11,8 @@ export const MainStyled = styled('main')({
 })
 
 export const HeaderStyled = styled('header')(({ theme }) => ({
-  color: 'purple',
+  color: theme.palette.primary.main,
+  // backgroundColor: theme.palette.primary.dark,
   alignItems: 'center',
   position: 'sticky',
   display: 'flex',
@@ -23,7 +24,7 @@ export const HeaderStyled = styled('header')(({ theme }) => ({
   },
 }))
 
-export const NavStyled = styled('ul')({
+export const NavStyled = styled('ul')(({ theme }) => ({
   listStyle: 'none',
   display: 'flex',
   flexDirection: 'row',
@@ -32,11 +33,12 @@ export const NavStyled = styled('ul')({
   textDecoration: 'none',
   a: {
     textDecoration: 'none',
+    color: theme.palette.primary.main,
     '&:hover': {
       textDecoration: 'underline',
     },
   },
-})
+}))
 
 export const HeroDescriptionStyled = styled('div')({
   width: '500px',
@@ -66,7 +68,7 @@ export const FooterStyled = styled('footer')(({ theme }) => ({
   color: '#ffffff',
   display: 'flex',
   justifyContent: 'center',
-  background: 'purple',
+  background: theme.palette.primary.dark,
   padding: '1em',
   ul: {
     display: 'flex',

@@ -14,10 +14,10 @@ export const Hero = () => {
           <TypeAnimation sequence={['I am a Frontend Developer']} wrapper="span" speed={50} />
         </Typography>
 
-        <p>
+        <Typography sx={{ fontWeight: 'light' }}>
           Passionate frontend developer with a keen eye for design and a love for crafting seamless user experiences.
           Skilled in HTML, CSS, JavaScript, and modern frameworks like React.
-        </p>
+        </Typography>
 
         <Box sx={{ mt: 3 }}>
           <Button variant="contained" color="primary">
