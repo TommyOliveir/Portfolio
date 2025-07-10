@@ -10,20 +10,6 @@ export const MainStyled = styled('main')({
   flexGrow: 1,
 })
 
-export const HeaderStyled = styled('header')(({ theme }) => ({
-  color: theme.palette.primary.main,
-  // backgroundColor: theme.palette.primary.dark,
-  alignItems: 'center',
-  position: 'sticky',
-  display: 'flex',
-  top: 0,
-  padding: '1em',
-  [theme.breakpoints.up('lg')]: {
-    padding: '1em 20em',
-    justifyContent: 'space-between',
-  },
-}))
-
 export const NavStyled = styled('ul')(({ theme }) => ({
   listStyle: 'none',
   display: 'flex',
