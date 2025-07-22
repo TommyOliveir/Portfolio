@@ -3,6 +3,7 @@ import { About } from '../components/about/About'
 import { Skills } from '../components/skills/Skills'
 import { Hero } from './Hero'
 import { useEffect } from 'react'
+import { Projects } from '../components/projects/Projects'
 
 export const Home = () => {
   const { hash } = useLocation()
@@ -24,6 +25,7 @@ export const Home = () => {
       <Hero />
       <About />
       <Skills />
+      <Projects />
     </>
   )
 }
