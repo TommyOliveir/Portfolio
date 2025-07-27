@@ -1,7 +1,7 @@
 import { Nav } from '../Nav'
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
-import { IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery } from '@mui/material'
+import { IconButton, Drawer, List, useMediaQuery } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 import { HeaderStyled } from './styles'
 
@@ -34,7 +34,7 @@ export const Header = () => {
           </IconButton>
           <Drawer anchor="left" open={open} onClose={() => setOpen(false)}>
             <List>
-              <ListItem button onClick={() => setOpen(false)}>
+              {/* <ListItem button onClick={() => setOpen(false)}>
                 <ListItemText primary="Home" />
               </ListItem>
               <ListItem button onClick={() => setOpen(false)}>
@@ -45,7 +45,7 @@ export const Header = () => {
               </ListItem>
               <ListItem button onClick={() => setOpen(false)}>
                 <ListItemText primary="Contact" />
-              </ListItem>
+              </ListItem> */}
             </List>
           </Drawer>
         </>
