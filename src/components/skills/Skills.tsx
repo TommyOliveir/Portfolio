@@ -11,9 +11,9 @@ export const Skills = () => {
 
   const skillSet = skills.map((skill) => {
     return (
-      <SkillWrapperStyled>
+      <SkillWrapperStyled key={skill.name}>
         <IconStyled src={skill.image} alt="" />
-        <p key={skill.name}>{skill.name}</p>
+        <p>{skill.name}</p>
       </SkillWrapperStyled>
     )
   })

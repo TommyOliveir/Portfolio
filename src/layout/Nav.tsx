@@ -18,10 +18,10 @@ export const Nav = () => {
           <Link to="/#projects">Projects</Link>
         </li>
         <li>
-          <Link to="/service">Service</Link>
+          <Link to="#/service">Service</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/#contact">Contact</Link>
         </li>
       </NavStyled>
     </nav>

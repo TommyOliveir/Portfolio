@@ -51,7 +51,7 @@ export const HeroWrapperStyled = styled('div')(({ theme }) => ({
 }))
 
 export const FooterStyled = styled('footer')(({ theme }) => ({
-  color: '#ffffff',
+  color: theme.palette.primary.main,
   display: 'flex',
   justifyContent: 'center',
   background: theme.palette.primary.dark,
@@ -62,7 +62,7 @@ export const FooterStyled = styled('footer')(({ theme }) => ({
     listStyle: 'none',
   },
   a: {
-    color: '#ffffff',
+    color: theme.palette.primary.main,
   },
 
   [theme.breakpoints.up('md')]: {

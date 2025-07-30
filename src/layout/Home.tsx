@@ -4,6 +4,7 @@ import { Skills } from '../components/skills/Skills'
 import { Hero } from './Hero'
 import { useEffect } from 'react'
 import { Projects } from '../components/projects/Projects'
+import { Contact } from '../components/contact/Contact'
 
 export const Home = () => {
   const { hash } = useLocation()
@@ -26,6 +27,7 @@ export const Home = () => {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </>
   )
 }
