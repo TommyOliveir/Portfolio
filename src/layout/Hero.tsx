@@ -1,5 +1,5 @@
 import { HeroDescriptionStyled, HeroImageStyled, HeroWrapperStyled } from './styles'
-import man from '../assets/tommy.png'
+import man from '../assets/tomblack.png'
 import { Box, Button, Typography } from '@mui/material'
 import { TypeAnimation } from 'react-type-animation'
 
