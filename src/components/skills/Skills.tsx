@@ -1,8 +1,9 @@
-import { IconStyled, SkillsListStyled, SkillsSectionStyled, SkillWrapperStyled } from './styles'
+import { IconStyled, SkillsListStyled, SkillsWrappertyled, SkillWrapperStyled } from './styles'
 import { skills } from '../../mock_data/skills_json.json'
 import { Typography } from '@mui/material'
 import { TypeAnimation } from 'react-type-animation'
 import { useInView } from 'react-intersection-observer'
+import { Section } from '../common/section/Section'
 
 export const Skills = () => {
   const { ref, inView } = useInView({
@@ -19,11 +20,13 @@ export const Skills = () => {
   })
 
   return (
-    <SkillsSectionStyled>
-      <Typography variant="h4" component="h1" ref={ref} id="skills">
-        {inView && <TypeAnimation sequence={['My Skills']} wrapper="span" speed={50} />}
-      </Typography>
-      <SkillsListStyled>{skillSet}</SkillsListStyled>
-    </SkillsSectionStyled>
+    <Section>
+      <SkillsWrappertyled>
+        <Typography variant="h4" component="h1" ref={ref} id="skills">
+          {inView && <TypeAnimation sequence={['My Skills']} wrapper="span" speed={50} />}
+        </Typography>
+        <SkillsListStyled>{skillSet}</SkillsListStyled>
+      </SkillsWrappertyled>
+    </Section>
   )
 }

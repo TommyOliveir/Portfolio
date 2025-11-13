@@ -1,7 +1,6 @@
 import { styled } from '@mui/system'
 
-export const SkillsSectionStyled = styled('div')({
-  padding: '6em',
+export const SkillsWrappertyled = styled('div')({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',

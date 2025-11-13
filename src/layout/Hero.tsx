@@ -15,8 +15,8 @@ export const Hero = () => {
         </Typography>
 
         <Typography sx={{ fontWeight: 'light' }}>
-          Passionate frontend developer with a keen eye for design and a love for crafting seamless user experiences.
-          Skilled in HTML, CSS, JavaScript, and modern frameworks like React.
+          Skilled in HTML, CSS, JavaScript, and modern frameworks like React. I believe in the power of simplicity
+          creating clean, intuitive, and meaningful interfaces that make technology feel effortless.
         </Typography>
 
         <Box sx={{ mt: 3 }}>
